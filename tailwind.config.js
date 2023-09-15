@@ -5,7 +5,17 @@ module.exports = {
     './*.js',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: {
+        'dark-green': '#364935',
+      },
+      padding: {
+        'pr': '72px'
+      },
+      fontFamily: {
+        poppins: ['FontName', 'poppins'],
+      }
+    },
   },
   plugins: [],
 }
