@@ -593,6 +593,10 @@ video {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .h-cardHeight {
   height: 467px;
 }
@@ -617,6 +621,18 @@ video {
   width: 10.43px;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -625,8 +641,20 @@ video {
   gap: 1rem;
 }
 
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .overflow-x-auto {
   overflow-x: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .whitespace-nowrap {
@@ -773,4 +801,20 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:w-cardWidth {
+    width: 355px;
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-cardWidth {
+    width: 355px;
+  }
 }
