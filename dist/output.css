@@ -534,9 +534,22 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .mt-12 {
@@ -555,12 +568,24 @@ video {
   height: 355px;
 }
 
+.h-starHeight {
+  height: 9.99px;
+}
+
 .w-cardWidth {
   width: 355px;
 }
 
 .w-screen {
   width: 100vw;
+}
+
+.w-starWidth {
+  width: 10.43px;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .gap-4 {
@@ -583,9 +608,19 @@ video {
   border-radius: 10px;
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-dark-green {
   --tw-bg-opacity: 1;
   background-color: rgb(54 73 53 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .p-4 {
@@ -595,6 +630,10 @@ video {
 .px-contentX {
   padding-left: 128px;
   padding-right: 128px;
+}
+
+.pb-contentBottom {
+  padding-bottom: 100px;
 }
 
 .pb-pr {
@@ -617,24 +656,80 @@ video {
   padding-top: 80px;
 }
 
-.pl-contentX {
-  padding-left: 128px;
+.align-middle {
+  vertical-align: middle;
 }
 
-.pr-contentX {
-  padding-right: 128px;
-}
-
-.pb-contentBottom {
-  padding-bottom: 100px;
+.align-bottom {
+  vertical-align: bottom;
 }
 
 .font-poppins {
   font-family: Poppins, sans;
 }
 
+.font-serif1 {
+  font-family: Source Serif, sans;
+}
+
+.text-btnSm {
+  font-size: 14px;
+  line-height: 19.6px;
+}
+
+.text-header2 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.text-price {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text-review {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.font-400 {
+  font-weight: 400;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+
+.font-600 {
+  font-weight: 600;
+}
+
+.font-900 {
+  font-weight: 900;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.text-default {
+  --tw-text-opacity: 1;
+  color: rgb(92 85 58 / var(--tw-text-opacity));
+}
+
+.text-grey {
+  --tw-text-opacity: 1;
+  color: rgb(112 112 112 / var(--tw-text-opacity));
+}
+
+.text-neutral {
+  --tw-text-opacity: 1;
+  color: rgb(35 31 32 / var(--tw-text-opacity));
+}
+
+.text-semiBlack {
+  --tw-text-opacity: 1;
+  color: rgb(28 29 29 / var(--tw-text-opacity));
 }
 
 .text-white {
