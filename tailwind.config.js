@@ -36,6 +36,7 @@ module.exports = {
       },
       fontWeight: {
         '900': '900',
+        '700': '700',
         '600': '600',
         '500': '500',
         '400': '400',
@@ -49,6 +50,7 @@ module.exports = {
         name: ['18px', '21.6px'],
         mobName: ['16px', '19.2px'],
         mobReview: ['11px', '16.5px'],
+        mobHead2: ['28px', '35.28px'],
       },
       width: {
         'cardWidth': '355px',
