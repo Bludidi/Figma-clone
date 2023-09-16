@@ -62,9 +62,9 @@ const items = [
 ];
 
 const itemCards = items.map((item) => `
-  <div class="w-card">
-    <ul class="w-card">
-      <li><div><img src="${item.image}" ></div></li>
+  <div class="w-cardWidth h-cardHeight">
+    <ul class="">
+      <li><div class="w-cardWidth h-imageHeight"><img src="${item.image}" class="w-cardWidth h-imageHeight rounded-imageRadius" ></div></li>
       <li>${item.name}</li>
       <li>${item.reviews}</li>
       <li>${item.price}</li>
