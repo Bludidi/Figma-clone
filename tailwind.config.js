@@ -13,7 +13,13 @@ module.exports = {
         'pr': '72px'
       },
       fontFamily: {
-        poppins: ['FontName', 'poppins'],
+        poppins: ['Poppins', 'sans'],
+      },
+      maxWidth: {
+        'card': '355px'
+      },
+      maxHeight: {
+        'card': '467px'
       }
     },
   },

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="dist/output.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body class="max-w-screen-lg">
     <header>
       <section
         id="banner"
@@ -24,7 +24,11 @@
       </section>
     </header>
     <main>
-      <div id="content"></div>
+      <div class="mt-12 max-w-5xl">
+        <h2>Best Seller</h2>
+        <div id="content" class="flex gap-x-4 w-screen overflow-x-auto whitespace-nowrap">
+        </div>
+      </div>
     </main>
     <script src="index.js"></script>
   </body>
