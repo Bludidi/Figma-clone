@@ -14,12 +14,19 @@ module.exports = {
         'neutral': '#231F20',
         'semiBlack': '#1C1D1D',
         'grey': '#707070',
+        'semiWhite': '#FFFFFA',
       },
       padding: {
         'pr': '72px',
         'contentTop': '80px',
         'contentX': '128px',
         'contentBottom': '100px',
+        'mobImagePad': '4px',
+        'mobNameYPad': '0px',
+        'mobNameXPad': '8px',
+        'nameXPad': '12px',
+        'btnYPad': '16px',
+        'btnXPad': '24px',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans'],
@@ -35,6 +42,7 @@ module.exports = {
       fontSize: {
         header2: ['40px', '48px'],
         btnSm: ['14px', '19.6px'],
+        btn: ['16px', '22.4px'],
         price: ['16px', '24px'],
         review: ['12px', '18px'],
         name: ['18px', '21.6px'],
@@ -45,15 +53,18 @@ module.exports = {
         'cardWidth': '355px',
         'starWidth': '10.43px',
         'mobCardWidth': '158px',
+        'btnWidth': '327px',
       },
       height: {
         'cardHeight': '467px',
         'imageHeight': '355px',
         'starHeight': '9.99px',
         'mobCardHeight': '159px',
+        'btnHeight': '54px',
       },
       borderRadius: {
         'imageRadius': '10px',
+        'btnRadius': '100px',
       }
     },
   },

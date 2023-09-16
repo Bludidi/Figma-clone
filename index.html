@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="dist/output.css" />
     <title>Figma Clone</title>
   </head>
-  <body class="p-4 max-w-screen bg-black overflow-hidden">
+  <body class="p-4 max-w-screen bg-black sm:overflow-hidden">
     <header>
       <section
         id="banner"
@@ -28,12 +28,13 @@
       <div class="mt-12 pt-contentTop pb-contentBottom w-screen bg-white">
         <div class="flex justify-between px-contentX mb-6">
           <h2 class="font-serif1 text-header2 text-neutral font-900">Best Sellers</h2>
-          <button type="button" class="flex text-btnSm font-poppins font-600 text-default">Shop All Best Sellers&nbsp;&nbsp;<div class="mt-1"><img src="./assets/images/arrow.png"></div></button>
+          <button type="button" class="sm:flex text-btnSm font-poppins font-600 text-default hidden">Shop All Best Sellers&nbsp;&nbsp;<div class="mt-1"><img src="./assets/images/arrow.png"></div></button>
         </div>
         <div
           id="content"
           class="flex gap-4 w- overflow-x-auto whitespace-nowrap pt- px-contentX"
         ></div>
+        <button type="button" class="bg-semiBlack w-btnWidth h-btnHeight rounded-btnRadius text-semiWhite font-poppins font-600 text-btn mx-auto gap-2 sm:hidden">Show More</button>
       </div>
     </main>
     <script src="index.js"></script>
