@@ -514,11 +514,11 @@ video {
 .h-btnHeight {
   height: 54px;
 }
-.h-cardHeight {
-  height: 467px;
-}
 .h-mobCardHeight {
   height: 159px;
+}
+.h-mobContHeight {
+  height: 757px;
 }
 .h-starHeight {
   height: 9.99px;
@@ -526,11 +526,11 @@ video {
 .w-btnWidth {
   width: 327px;
 }
-.w-cardWidth {
-  width: 355px;
-}
 .w-mobCardWidth {
   width: 158px;
+}
+.w-mobContWidth {
+  width: 375px;
 }
 .w-screen {
   width: 100vw;
@@ -549,6 +549,9 @@ video {
 }
 .overflow-x-auto {
   overflow-x: auto;
+}
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 .whitespace-nowrap {
   white-space: nowrap;
@@ -578,8 +581,9 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.p-4 {
-  padding: 1rem;
+.px-btnXPad {
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .px-contentX {
   padding-left: 128px;
@@ -589,12 +593,13 @@ video {
   padding-left: 8px;
   padding-right: 8px;
 }
+.py-mobContentY {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
 .py-mobNameYPad {
   padding-top: 0px;
   padding-bottom: 0px;
-}
-.pb-contentBottom {
-  padding-bottom: 100px;
 }
 .pb-pr {
   padding-bottom: 72px;
@@ -607,9 +612,6 @@ video {
 }
 .pt-16 {
   padding-top: 4rem;
-}
-.pt-contentTop {
-  padding-top: 80px;
 }
 .font-bebas {
   font-family: Bebas Neue, sans;
@@ -693,12 +695,20 @@ video {
     display: none;
   }
 
+  .sm\:h-cardHeight {
+    height: 467px;
+  }
+
   .sm\:h-imageHeight {
     height: 355px;
   }
 
   .sm\:w-cardWidth {
     width: 355px;
+  }
+
+  .sm\:w-screen {
+    width: 100vw;
   }
 
   .sm\:overflow-hidden {
@@ -708,6 +718,14 @@ video {
   .sm\:px-nameXPad {
     padding-left: 12px;
     padding-right: 12px;
+  }
+
+  .sm\:pb-contentBottom {
+    padding-bottom: 100px;
+  }
+
+  .sm\:pt-contentTop {
+    padding-top: 80px;
   }
 
   .sm\:text-name {

@@ -27,6 +27,7 @@ module.exports = {
         'nameXPad': '12px',
         'btnYPad': '16px',
         'btnXPad': '24px',
+        'mobContentY': '36px',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans'],
@@ -54,6 +55,7 @@ module.exports = {
         'starWidth': '10.43px',
         'mobCardWidth': '158px',
         'btnWidth': '327px',
+        'mobContWidth': '375px',
       },
       height: {
         'cardHeight': '467px',
@@ -61,6 +63,7 @@ module.exports = {
         'starHeight': '9.99px',
         'mobCardHeight': '159px',
         'btnHeight': '54px',
+        'mobContHeight': '757px',
       },
       borderRadius: {
         'imageRadius': '10px',

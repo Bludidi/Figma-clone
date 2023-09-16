@@ -73,7 +73,7 @@ const items = [
 
 const itemCards = items.map(
   (item) => `
-  <div class="w-cardWidth h-cardHeight">
+  <div class="sm:w-cardWidth sm:h-cardHeight w-mobContWidth h-mobContHeight">
     <ul class="">
       <li><div class="w-mobCardWidth h-mobCardHeight sm:w-cardWidth sm:h-imageHeight mb-8"><img src="${item.image}" class="w-mobCardWidth h-mobCardHeight sm:w-cardWidth sm:h-imageHeight rounded-imageRadius" ></div></li>
       <li><div class="w-mobCardWidth sm:w-cardWidth py-mobNameYPad px-mobNameXPad sm:px-nameXPad font-bebas font-400 text-mobName sm:text-name">${item.name}</div></li>
