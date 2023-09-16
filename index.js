@@ -75,10 +75,10 @@ const itemCards = items.map(
   (item) => `
   <div class="w-cardWidth h-cardHeight">
     <ul class="">
-      <li><div class="w-cardWidth h-imageHeight mb-8"><img src="${item.image}" class="w-cardWidth h-imageHeight rounded-imageRadius" ></div></li>
-      <li><div class="font-bebas font-400 text-name">${item.name}</div></li>
-      <li><div class="flex font-poppins font-400 text-grey text-review"><div class="flex my-auto"><img src="${item.stars}" class="w-starWidth h-starHeight"><img src="${item.stars}" class="w-starWidth h-starHeight"><img src="${item.stars}" class="w-starWidth h-starHeight"><img src="${item.stars}" class="w-starWidth h-starHeight"><img src="${item.stars}" class="w-starWidth h-starHeight"></div>&nbsp;<div>${item.reviews}</div></div></li>
-      <li><div class="font-poppins font-500 text-price text-semiBlack">${item.price}</div></li>
+      <li><div class="w-mobCardWidth h-mobCardHeight sm:w-cardWidth sm:h-imageHeight mb-8"><img src="${item.image}" class="w-mobCardWidth h-mobCardHeight sm:w-cardWidth sm:h-imageHeight rounded-imageRadius" ></div></li>
+      <li><div class="w-mobCardWidth sm:w-cardWidth py-mobNameYPad px-mobNameXPad sm:px-nameXPad font-bebas font-400 text-mobName sm:text-name">${item.name}</div></li>
+      <li><div class="flex py-mobNameYPad px-mobNameXPad sm:px-nameXPad font-poppins font-400 text-grey text-mobReview sm:text-review"><div class="flex my-auto"><img src="${item.stars}" class="w-starWidth h-starHeight"><img src="${item.stars}" class="w-starWidth h-starHeight"><img src="${item.stars}" class="w-starWidth h-starHeight"><img src="${item.stars}" class="w-starWidth h-starHeight"><img src="${item.stars}" class="w-starWidth h-starHeight"></div>&nbsp;<div>${item.reviews}</div></div></li>
+      <li><div class="py-mobNameYPad px-mobNameXPad sm:px-nameXPad font-poppins font-500 text-price text-semiBlack">${item.price}</div></li>
     </ul>
   </div>
 `
