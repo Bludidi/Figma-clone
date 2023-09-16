@@ -548,12 +548,45 @@ video {
   margin-bottom: auto;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
 
 .mt-12 {
   margin-top: 3rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-auto {
+  margin-bottom: auto;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
 }
 
 .flex {
@@ -660,16 +693,16 @@ video {
   vertical-align: middle;
 }
 
-.align-bottom {
-  vertical-align: bottom;
-}
-
 .font-poppins {
   font-family: Poppins, sans;
 }
 
 .font-serif1 {
   font-family: Source Serif, sans;
+}
+
+.font-bebas {
+  font-family: Bebas Neue, sans;
 }
 
 .text-btnSm {
@@ -690,6 +723,11 @@ video {
 .text-review {
   font-size: 12px;
   line-height: 18px;
+}
+
+.text-name {
+  font-size: 18px;
+  line-height: 21.6px;
 }
 
 .font-400 {

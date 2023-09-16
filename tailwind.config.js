@@ -23,7 +23,8 @@ module.exports = {
       },
       fontFamily: {
         poppins: ['Poppins', 'sans'],
-        serif1: ['Source Serif', 'sans']
+        serif1: ['Source Serif', 'sans'],
+        bebas: ['Bebas Neue', 'sans'],
       },
       fontWeight: {
         '900': '900',
@@ -35,7 +36,8 @@ module.exports = {
         header2: ['40px', '48px'],
         btnSm: ['14px', '19.6px'],
         price: ['16px', '24px'],
-        review: ['12px', '18px']
+        review: ['12px', '18px'],
+        name: ['18px', '21.6px'],
       },
       width: {
         'cardWidth': '355px',
