@@ -534,6 +534,44 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.visible {
+  visibility: visible;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -562,6 +600,10 @@ video {
 
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .hidden {
@@ -604,16 +646,12 @@ video {
   width: 10.43px;
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .justify-center {
   justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
-}
-
-.gap-2 {
-  gap: 0.5rem;
 }
 
 .gap-4 {
@@ -667,11 +705,6 @@ video {
 .px-btnXPad {
   padding-left: 24px;
   padding-right: 24px;
-}
-
-.px-contentX {
-  padding-left: 128px;
-  padding-right: 128px;
 }
 
 .px-mobNameXPad {
@@ -731,9 +764,9 @@ video {
   line-height: 19.6px;
 }
 
-.text-header2 {
-  font-size: 40px;
-  line-height: 48px;
+.text-mobHead2 {
+  font-size: 28px;
+  line-height: 35.28px;
 }
 
 .text-mobName {
@@ -751,11 +784,6 @@ video {
   line-height: 24px;
 }
 
-.text-mobHead2 {
-  font-size: 28px;
-  line-height: 35.28px;
-}
-
 .font-400 {
   font-weight: 400;
 }
@@ -766,10 +794,6 @@ video {
 
 .font-600 {
   font-weight: 600;
-}
-
-.font-900 {
-  font-weight: 900;
 }
 
 .font-700 {
@@ -806,6 +830,10 @@ video {
     display: flex;
   }
 
+  .sm\:grid {
+    display: grid;
+  }
+
   .sm\:hidden {
     display: none;
   }
@@ -822,10 +850,6 @@ video {
     width: 355px;
   }
 
-  .sm\:w-screen {
-    width: 100vw;
-  }
-
   .sm\:justify-between {
     justify-content: space-between;
   }
@@ -834,14 +858,14 @@ video {
     overflow: hidden;
   }
 
-  .sm\:px-nameXPad {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
   .sm\:px-contentX {
     padding-left: 128px;
     padding-right: 128px;
+  }
+
+  .sm\:px-nameXPad {
+    padding-left: 12px;
+    padding-right: 12px;
   }
 
   .sm\:pb-contentBottom {
@@ -869,10 +893,6 @@ video {
   .sm\:text-review {
     font-size: 12px;
     line-height: 18px;
-  }
-
-  .sm\:font-700 {
-    font-weight: 700;
   }
 
   .sm\:font-900 {

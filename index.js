@@ -1,3 +1,4 @@
+// Items to display on the screen
 const items = [
   {
     name: 'REST IN NATURE T-SHIRT CHARCOAL',
@@ -70,7 +71,7 @@ const items = [
     image: './assets/images/image_4.jpg',
   },
 ];
-
+// Populate item cards with data 
 const itemCards = items.map(
   (item) => `
   <div class="sm:w-cardWidth sm:h-cardHeight w-mobContWidth h-mobContHeight">
@@ -90,4 +91,37 @@ itemCards.forEach((itemCard) => {
   const itemIndex = parser.parseFromString(itemCard, 'text/html').body
     .firstChild;
   content.append(itemIndex);
+});
+
+// Create grid display for mobile devices and logic for show more button
+const cardContainer = document.getElementById('cardContainer');
+const viewMoreBtn = document.getElementById('viewMoreBtn');
+
+const productCards = (container, startIndex, endIndex) => {
+  for (let i = startIndex; i < endIndex; i++) {
+    const itemCard = itemCards[i];
+    const itemIndex = parser.parseFromString(itemCard, 'text/html').body.firstChild;
+    container.appendChild(itemIndex);
+  }
+}
+productCards(cardContainer, 0, 4);
+
+// Handle "Show more" button
+let visibleCards = 4;
+viewMoreBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  const totalCards = itemCards.length;
+  const remainingCards = totalCards - visibleCards;
+
+  //Show remaining cards
+  if (remainingCards > 0) {
+    const cardsToAdd = Math.min(remainingCards, 6);
+    productCards(cardContainer, visibleCards, visibleCards + cardsToAdd);
+    visibleCards += cardsToAdd;
+
+    //Hide "Show more" button when all cards are displayed
+    if (visibleCards === totalCards) {
+      viewMoreBtn.classList.add('hidden');
+    }
+  }
 });
