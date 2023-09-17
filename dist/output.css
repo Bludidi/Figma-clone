@@ -1,8 +1,6 @@
 /*
 ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
-*/
-
-/*
+*//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
@@ -10,14 +8,10 @@
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
-  /* 1 */
-  border-width: 0;
-  /* 2 */
-  border-style: solid;
-  /* 2 */
-  border-color: #e5e7eb;
-  /* 2 */
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
 }
 
 ::before,
@@ -35,21 +29,14 @@
 */
 
 html {
-  line-height: 1.5;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-  -moz-tab-size: 4;
-  /* 3 */
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
-     tab-size: 4;
-  /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  /* 4 */
-  font-feature-settings: normal;
-  /* 5 */
-  font-variation-settings: normal;
-  /* 6 */
+     tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
 }
 
 /*
@@ -58,10 +45,8 @@ html {
 */
 
 body {
-  margin: 0;
-  /* 1 */
-  line-height: inherit;
-  /* 2 */
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
 }
 
 /*
@@ -71,12 +56,9 @@ body {
 */
 
 hr {
-  height: 0;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  border-top-width: 1px;
-  /* 3 */
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
 }
 
 /*
@@ -129,10 +111,8 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /*
@@ -170,12 +150,9 @@ sup {
 */
 
 table {
-  text-indent: 0;
-  /* 1 */
-  border-color: inherit;
-  /* 2 */
-  border-collapse: collapse;
-  /* 3 */
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
 }
 
 /*
@@ -189,24 +166,15 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-feature-settings: inherit;
-  /* 1 */
-  font-variation-settings: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  font-weight: inherit;
-  /* 1 */
-  line-height: inherit;
-  /* 1 */
-  color: inherit;
-  /* 1 */
-  margin: 0;
-  /* 2 */
-  padding: 0;
-  /* 3 */
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
 }
 
 /*
@@ -227,12 +195,9 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-  -webkit-appearance: button;
-  /* 1 */
-  background-color: transparent;
-  /* 2 */
-  background-image: none;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
 }
 
 /*
@@ -274,10 +239,8 @@ Correct the cursor style of increment and decrement buttons in Safari.
 */
 
 [type='search'] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /*
@@ -294,10 +257,8 @@ Remove the inner padding in Chrome and Safari on macOS.
 */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /*
@@ -348,7 +309,6 @@ menu {
 /*
 Reset default styling for dialogs.
 */
-
 dialog {
   padding: 0;
 }
@@ -367,18 +327,14 @@ textarea {
 */
 
 input::-moz-placeholder, textarea::-moz-placeholder {
-  opacity: 1;
-  /* 1 */
-  color: #9ca3af;
-  /* 2 */
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
 }
 
 input::placeholder,
 textarea::placeholder {
-  opacity: 1;
-  /* 1 */
-  color: #9ca3af;
-  /* 2 */
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
 }
 
 /*
@@ -393,7 +349,6 @@ button,
 /*
 Make sure disabled buttons don't get the pointer cursor.
 */
-
 :disabled {
   cursor: default;
 }
@@ -412,10 +367,8 @@ audio,
 iframe,
 embed,
 object {
-  display: block;
-  /* 1 */
-  vertical-align: middle;
-  /* 2 */
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
 }
 
 /*
@@ -429,7 +382,6 @@ video {
 }
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
-
 [hidden] {
   display: none;
 }
@@ -533,326 +485,267 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-
 .container {
   width: 100%;
 }
-
 @media (min-width: 640px) {
+
   .container {
     max-width: 640px;
   }
 }
-
 @media (min-width: 768px) {
+
   .container {
     max-width: 768px;
   }
 }
-
 @media (min-width: 1024px) {
+
   .container {
     max-width: 1024px;
   }
 }
-
 @media (min-width: 1280px) {
+
   .container {
     max-width: 1280px;
   }
 }
-
 @media (min-width: 1536px) {
+
   .container {
     max-width: 1536px;
   }
 }
-
-.visible {
-  visibility: visible;
+.absolute {
+  position: absolute;
 }
-
+.relative {
+  position: relative;
+}
+.left-0 {
+  left: 0px;
+}
+.top-0 {
+  top: 0px;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
-
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
 }
-
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
-.mt-12 {
-  margin-top: 3rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
 }
-
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.mt-1 {
+  margin-top: 0.25rem;
+}
+.mt-12 {
+  margin-top: 3rem;
+}
 .mt-8 {
   margin-top: 2rem;
 }
-
 .flex {
   display: flex;
 }
-
 .grid {
   display: grid;
 }
-
 .hidden {
   display: none;
 }
-
 .h-btnHeight {
   height: 54px;
 }
-
 .h-mobCardHeight {
   height: 159px;
 }
-
-.h-mobContHeight {
-  height: 757px;
-}
-
 .h-starHeight {
   height: 9.99px;
 }
-
 .w-btnWidth {
   width: 327px;
 }
-
 .w-mobCardWidth {
   width: 158px;
 }
-
-.w-mobContWidth {
-  width: 375px;
-}
-
 .w-screen {
   width: 100vw;
 }
-
 .w-starWidth {
   width: 10.43px;
 }
-
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-
 .justify-center {
   justify-content: center;
 }
-
-.gap-4 {
-  gap: 1rem;
-}
-
-.gap-1 {
-  gap: 0.25rem;
-}
-
 .gap-2 {
   gap: 0.5rem;
 }
-
+.gap-4 {
+  gap: 1rem;
+}
 .overflow-x-auto {
   overflow-x: auto;
 }
-
 .overflow-x-hidden {
   overflow-x: hidden;
 }
-
 .whitespace-normal {
   white-space: normal;
 }
-
 .whitespace-nowrap {
   white-space: nowrap;
 }
-
 .rounded-3xl {
   border-radius: 1.5rem;
 }
-
 .rounded-btnRadius {
   border-radius: 100px;
 }
-
 .rounded-imageRadius {
   border-radius: 10px;
 }
-
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
-
 .bg-dark-green {
   --tw-bg-opacity: 1;
   background-color: rgb(54 73 53 / var(--tw-bg-opacity));
 }
-
 .bg-semiBlack {
   --tw-bg-opacity: 1;
   background-color: rgb(28 29 29 / var(--tw-bg-opacity));
 }
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-
 .px-btnXPad {
   padding-left: 24px;
   padding-right: 24px;
 }
-
 .px-mobNameXPad {
   padding-left: 8px;
   padding-right: 8px;
 }
-
 .py-mobContentY {
   padding-top: 36px;
   padding-bottom: 36px;
 }
-
 .py-mobNameYPad {
   padding-top: 0px;
   padding-bottom: 0px;
 }
-
 .pb-pr {
   padding-bottom: 72px;
 }
-
 .pl-16 {
   padding-left: 4rem;
 }
-
 .pr-16 {
   padding-right: 4rem;
 }
-
 .pt-16 {
   padding-top: 4rem;
 }
-
 .text-center {
   text-align: center;
 }
-
 .font-bebas {
   font-family: Bebas Neue, sans;
 }
-
 .font-poppins {
   font-family: Poppins, sans;
 }
-
 .font-serif1 {
   font-family: Source Serif, sans;
 }
-
 .text-btn {
   font-size: 16px;
   line-height: 22.4px;
 }
-
 .text-btnSm {
   font-size: 14px;
   line-height: 19.6px;
 }
-
 .text-mobHead2 {
   font-size: 28px;
   line-height: 35.28px;
 }
-
 .text-mobName {
   font-size: 16px;
   line-height: 19.2px;
 }
-
 .text-mobReview {
   font-size: 11px;
   line-height: 16.5px;
 }
-
 .text-price {
   font-size: 16px;
   line-height: 24px;
 }
-
 .font-400 {
   font-weight: 400;
 }
-
 .font-500 {
   font-weight: 500;
 }
-
 .font-600 {
   font-weight: 600;
 }
-
 .font-700 {
   font-weight: 700;
 }
-
 .text-default {
   --tw-text-opacity: 1;
   color: rgb(92 85 58 / var(--tw-text-opacity));
 }
-
 .text-grey {
   --tw-text-opacity: 1;
   color: rgb(112 112 112 / var(--tw-text-opacity));
 }
-
 .text-neutral {
   --tw-text-opacity: 1;
   color: rgb(35 31 32 / var(--tw-text-opacity));
 }
-
 .text-semiBlack {
   --tw-text-opacity: 1;
   color: rgb(28 29 29 / var(--tw-text-opacity));
 }
-
 .text-semiWhite {
   --tw-text-opacity: 1;
   color: rgb(255 255 250 / var(--tw-text-opacity));
 }
-
+.opacity-0 {
+  opacity: 0;
+}
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-300 {
+  transition-duration: 300ms;
+}
+.group:hover .group-hover\:opacity-0 {
+  opacity: 0;
+}
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
 @media (min-width: 640px) {
-  .sm\:mb-8 {
-    margin-bottom: 2rem;
-  }
 
   .sm\:mb-4 {
     margin-bottom: 1rem;
@@ -860,10 +753,6 @@ video {
 
   .sm\:flex {
     display: flex;
-  }
-
-  .sm\:grid {
-    display: grid;
   }
 
   .sm\:hidden {
