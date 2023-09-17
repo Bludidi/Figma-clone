@@ -130,3 +130,14 @@ viewMoreBtn.addEventListener('click', (e) => {
     }
   }
 });
+
+//Handle scrollbar thumb effects
+const scrollbarThumb = document.querySelector('.custom-scrollbar::webkit-scrollbar-thumb');
+
+scrollbarThumb.addEventListener('mouseenter', () => {
+  scrollbarThumb.classList.add('hover');
+});
+
+scrollbarThumb.addEventListener('mouseleave', () => {
+  scrollbarThumb.classList.remove('hover');
+});
