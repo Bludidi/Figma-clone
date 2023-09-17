@@ -78,8 +78,8 @@ const itemCards = items.map(
   <ul class="">
     <li>
       <div class="w-mobCardWidth h-mobCardHeight sm:w-cardWidth sm:h-imageHeight sm:mb-4 mb-2 relative group">
-        <img src="${item.image}" class="w-mobCardWidth h-mobCardHeight sm:w-cardWidth sm:h-imageHeight rounded-imageRadius transition-opacity duration-300 group-hover:opacity-0" alt="${item.name}">
-        <img src="${item.image_2}" class="w-mobCardWidth h-mobCardHeight sm:w-cardWidth sm:h-imageHeight rounded-imageRadius absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" alt="${item.name}">
+        <img src="${item.image}" alt="${item.name}" class="w-mobCardWidth h-mobCardHeight sm:w-cardWidth sm:h-imageHeight rounded-imageRadius transition-opacity duration-300 group-hover:opacity-0" alt="${item.name}">
+        <img src="${item.image_2}" alt="${item.image_2}" class="w-mobCardWidth h-mobCardHeight sm:w-cardWidth sm:h-imageHeight rounded-imageRadius absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" alt="${item.name}">
       </div>
     </li>
     <li><div class="w-mobCardWidth sm:w-cardWidth py-mobNameYPad px-mobNameXPad sm:px-nameXPad font-bebas font-400 text-mobName sm:text-name whitespace-normal">${item.name}</div></li>
