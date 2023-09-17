@@ -534,22 +534,400 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.visible {
+  visibility: visible;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-btnHeight {
+  height: 54px;
+}
+
+.h-mobCardHeight {
+  height: 159px;
+}
+
+.h-mobContHeight {
+  height: 757px;
+}
+
+.h-starHeight {
+  height: 9.99px;
+}
+
+.w-btnWidth {
+  width: 327px;
+}
+
+.w-mobCardWidth {
+  width: 158px;
+}
+
+.w-mobContWidth {
+  width: 375px;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-starWidth {
+  width: 10.43px;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.whitespace-normal {
+  white-space: normal;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.rounded-btnRadius {
+  border-radius: 100px;
+}
+
+.rounded-imageRadius {
+  border-radius: 10px;
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+.bg-dark-green {
+  --tw-bg-opacity: 1;
+  background-color: rgb(54 73 53 / var(--tw-bg-opacity));
 }
 
-.text-red-900 {
-  --tw-text-opacity: 1;
-  color: rgb(127 29 29 / var(--tw-text-opacity));
+.bg-semiBlack {
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 29 29 / var(--tw-bg-opacity));
 }
 
-.hover\:text-blue-500:hover {
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.px-btnXPad {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.px-mobNameXPad {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.py-mobContentY {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.py-mobNameYPad {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.pb-pr {
+  padding-bottom: 72px;
+}
+
+.pl-16 {
+  padding-left: 4rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-bebas {
+  font-family: Bebas Neue, sans;
+}
+
+.font-poppins {
+  font-family: Poppins, sans;
+}
+
+.font-serif1 {
+  font-family: Source Serif, sans;
+}
+
+.text-btn {
+  font-size: 16px;
+  line-height: 22.4px;
+}
+
+.text-btnSm {
+  font-size: 14px;
+  line-height: 19.6px;
+}
+
+.text-mobHead2 {
+  font-size: 28px;
+  line-height: 35.28px;
+}
+
+.text-mobName {
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+.text-mobReview {
+  font-size: 11px;
+  line-height: 16.5px;
+}
+
+.text-price {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.font-400 {
+  font-weight: 400;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+
+.font-600 {
+  font-weight: 600;
+}
+
+.font-700 {
+  font-weight: 700;
+}
+
+.text-default {
   --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
+  color: rgb(92 85 58 / var(--tw-text-opacity));
+}
+
+.text-grey {
+  --tw-text-opacity: 1;
+  color: rgb(112 112 112 / var(--tw-text-opacity));
+}
+
+.text-neutral {
+  --tw-text-opacity: 1;
+  color: rgb(35 31 32 / var(--tw-text-opacity));
+}
+
+.text-semiBlack {
+  --tw-text-opacity: 1;
+  color: rgb(28 29 29 / var(--tw-text-opacity));
+}
+
+.text-semiWhite {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 250 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
+  .sm\:mb-4 {
+    margin-bottom: 1rem;
+  }
+
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:grid {
+    display: grid;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+
+  .sm\:h-cardHeight {
+    height: 467px;
+  }
+
+  .sm\:h-imageHeight {
+    height: 355px;
+  }
+
+  .sm\:w-cardWidth {
+    width: 355px;
+  }
+
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
+
+  .sm\:overflow-hidden {
+    overflow: hidden;
+  }
+
+  .sm\:px-contentX {
+    padding-left: 128px;
+    padding-right: 128px;
+  }
+
+  .sm\:px-nameXPad {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .sm\:pb-contentBottom {
+    padding-bottom: 100px;
+  }
+
+  .sm\:pt-contentTop {
+    padding-top: 80px;
+  }
+
+  .sm\:text-left {
+    text-align: left;
+  }
+
+  .sm\:text-header2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .sm\:text-name {
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+
+  .sm\:text-review {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .sm\:font-900 {
+    font-weight: 900;
+  }
 }

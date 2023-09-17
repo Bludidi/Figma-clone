@@ -1,13 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="dist/output.css">
-  <title>Document</title>
-</head>
-<body>
-  <p class="text-red-900 hover:text-blue-500 bg-black">Figma Clone</p>
-  <script src="index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Bebas+Neue&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/output.css" />
+    <title>Figma Clone</title>
+  </head>
+  <body class="max-w-screen bg-black sm:overflow-hidden overflow-x-hidden">
+    <header>
+      <section
+        id="banner"
+        class="mx-auto bg-dark-green pt-16 pr-16 pb-pr pl-16 rounded-3xl w-screen"
+      >
+        <div class="">
+          <h1
+            class="text-semiWhite text-center sm:text-left sm:text-header2 text-mobHead2 font-700 font-poppins justify-center"
+          >
+            Collection View
+          </h1>
+        </div>
+      </section>
+    </header>
+    <main>
+      <div
+        class="mt-12 py-mobContentY px-btnXPad sm:pt-contentTop sm:pb-contentBottom w-screen bg-white"
+      >
+        <div class="sm:flex sm:justify-between text-center sm:px-contentX mb-6">
+          <h2
+            class="font-serif1 sm:text-header2 text-center text-mobHead2 text-neutral font-700 sm:font-900"
+          >
+            Best Sellers
+          </h2>
+          <button
+            type="button"
+            class="sm:flex text-btnSm font-poppins font-600 text-default hidden"
+          >
+            Shop All Best Sellers&nbsp;&nbsp;
+            <div class="mt-1"><img src="./assets/images/arrow.png" /></div>
+          </button>
+        </div>
+        <div
+          id="content"
+          class="sm:flex gap-4 overflow-x-auto whitespace-nowrap pt- sm:px-contentX hidden"
+        ></div>
+        <div
+          id="cardContainer"
+          class="sm:hidden grid grid-cols-2 gap-4 overflow-x-hidden whitespace-nowrap"
+        ></div>
+        <button
+          type="button"
+          id="viewMoreBtn"
+          class="bg-semiBlack w-btnWidth h-btnHeight rounded-btnRadius text-semiWhite font-poppins font-600 text-btn mx-auto mt-8 sm:hidden gap-2"
+        >
+          Show More
+        </button>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
 </html>
